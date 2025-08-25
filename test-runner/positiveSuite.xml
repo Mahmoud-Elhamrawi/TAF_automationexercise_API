@@ -1,17 +1,25 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="PositiveSuite1" verbose="1">
-<test name="PositiveSuite">
-    <classes>
-        <class name="TestCases.TC01_RegisterTC"/>
-        <class name="TestCases.TC02_loginTC">
-            <methods>
-                <include name="loginTC"/>
-                <include name="getUserEmailTC"/>
-            </methods>
-        </class>
-    </classes>
-</test>
+    <test name="PositiveSuite">
+        <classes>
+            <class name="TestCases.TC01RegisterTC"/>
+            <class name="TestCases.TC02loginTC">
+                <methods>
+                    <include name="loginTC"/>
+                </methods>
+            </class>
+            <class name="TestCases.TC03UserManagementTC">
+                <methods>
+                    <include name="updateUserAccountData"/>
+                    <include name="getUserEmailTC"/>
+                    <include name="deleteAccount"/>
+                    <include name="getUserEmailAfterDeleteTC"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
 
 
 </suite>

@@ -3,8 +3,8 @@
 <suite name="NegativeSuite" verbose="1">
     <test name="NegativeSuite">
         <classes>
-            <class name="TestCases.TC01_RegisterTC"/>
-            <class name="TestCases.TC02_loginTC">
+            <class name="TestCases.TC01RegisterTC"/>
+            <class name="TestCases.TC02loginTC">
                 <methods>
                     <include name="inValidLoginTC"/>
                     <include name="inValidLoginTC2"/>

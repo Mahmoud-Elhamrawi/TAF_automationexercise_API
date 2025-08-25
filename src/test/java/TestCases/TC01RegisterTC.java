@@ -9,7 +9,7 @@ import java.time.Instant;
 
 import static io.restassured.RestAssured.given;
 
-public class TC01_RegisterTC {
+public class TC01RegisterTC {
 
 public static String eamil = "test@example.com"+ Instant.now().toEpochMilli();
 public static String password = "123456";
